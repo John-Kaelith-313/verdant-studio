@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Style guide | Verdant Studio</title>
+<meta name="description" content="Colors, type, buttons and shapes for the Verdant Studio website.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Verdant Studio, home"><span class="logo-mark" aria-hidden="true"></span>Verdant Studio</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="shop.html">Shop</a></li>
+        <li><a class="nav-link" href="studio.html">Studio</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="care-guide.html">Care Guide</a></li>
+        <li><a class="btn btn--sm" href="contact.html">Get in touch</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="section"><div class="container">
+  <p class="eyebrow">Design system</p>
+  <h1>Style guide</h1>
+  <p>Every color, type size, button and shape used on the Verdant Studio site, in one place. Verdant Studio is a fictional brand, so everything here is demo content.</p>
+</div></section>
+<section class="section section--stone"><div class="container">
+  <h2>Colors</h2>
+  <div class="sg-grid"><figure class="swatch"><i style="background:var(--cream)"></i><b>Cream</b><span>#F6F2EA</span><span>Page background</span></figure><figure class="swatch"><i style="background:var(--stone)"></i><b>Stone</b><span>#E8E1D4</span><span>Cards and bands</span></figure><figure class="swatch"><i style="background:var(--sage)"></i><b>Sage</b><span>#A9BBA0</span><span>Soft highlights</span></figure><figure class="swatch"><i style="background:var(--moss)"></i><b>Moss</b><span>#5B7A5A</span><span>Icons and borders</span></figure><figure class="swatch"><i style="background:var(--forest)"></i><b>Forest</b><span>#1F3A2E</span><span>Headings and buttons</span></figure><figure class="swatch"><i style="background:var(--forest-2)"></i><b>Forest 2</b><span>#2E5340</span><span>Button hover</span></figure><figure class="swatch"><i style="background:var(--terracotta)"></i><b>Terracotta</b><span>#C26B4A</span><span>Accent, large use only</span></figure><figure class="swatch"><i style="background:var(--ink)"></i><b>Ink</b><span>#232823</span><span>Body text</span></figure></div>
+</div></section>
+<section class="section"><div class="container">
+  <h2>Typography</h2>
+  <p class="eyebrow">Eyebrow label, 13px</p>
+  <p class="t-hero">Hero heading, 44 to 72px</p>
+  <p class="t-h2">Section heading, 32 to 44px</p>
+  <p class="t-h3">Card heading, 24 to 28px</p>
+  <p>Body text uses DM Sans at 16 to 17px with generous line spacing. Headings use Cormorant Garamond. Lines stay under about 65 characters so they are comfortable to read.</p>
+</div></section>
+<section class="section section--stone"><div class="container">
+  <h2>Buttons</h2>
+  <div class="sg-row">
+    <a class="btn" href="#main">Primary</a>
+    <a class="btn btn--secondary" href="#main">Secondary</a>
+    <a class="btn btn--sm" href="#main">Small primary</a>
+    <a class="btn btn--secondary btn--sm" href="#main">Small secondary</a>
+    <a class="btn-link" href="#main">Text link</a>
+  </div>
+  <p style="margin-top:var(--s3)">On dark green:</p>
+  <div class="sg-block on-dark sg-row">
+    <a class="btn btn--light" href="#main">Light button</a>
+    <a class="btn-link" href="#main">Text link</a>
+  </div>
+</div></section>
+<section class="section"><div class="container split">
+  <div>
+    <h2>Shape and spacing</h2>
+    <p>The arch frame echoes a terrarium window and will hold photographs. Spacing follows an 8-point scale: 8, 16, 24, 32, 48 and 64px. Sections get 72, 96 or 128px of padding, and content is capped at 1200px wide.</p>
+  </div>
+  <div class="arch" aria-hidden="true">Photo goes here</div>
+</div></section>
+</main>
+<footer class="site-footer on-dark">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo" href="index.html" aria-label="Verdant Studio, home"><span class="logo-mark" aria-hidden="true"></span>Verdant Studio</a>
+      <p>Small worlds, grown with care.</p>
+    </div>
+    <nav aria-label="Explore">
+      <h2 class="footer-title">Explore</h2>
+      <ul>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="studio.html">Studio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="care-guide.html">Care Guide</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2 class="footer-title">Visit (demo)</h2>
+      <p>Example Lane 12<br>Demo City<br>Tue to Sat, 10:00 to 17:00</p>
+    </div>
+    <div>
+      <h2 class="footer-title">Contact (demo)</h2>
+      <p><a href="mailto:hello@verdantstudio.example">hello@verdantstudio.example</a></p>
+      <p>Instagram: @verdantstudio (placeholder)</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2026 Verdant Studio</p>
+    <p>Verdant Studio is a fictional brand made for a portfolio project. All products, prices, people and business details on this site are demo content.</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
